@@ -1,0 +1,46 @@
+.flex-box{
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	flex-direction: column;
+}
+
+.input-box{
+	text-align: center;
+
+}
+.input-box ion-input{
+	border-bottom:1px solid #999;
+	--padding-bottom:5px;
+	--padding-end:0px;
+	--padding-start:0px;
+	--padding-top:0px;
+	font-size: 22px;
+	font-family: OpenSans-SemiBold;
+}
+
+.img-box{
+	height: 180px;
+	text-align: center;
+}
+
+.img-box img{
+	height: 100%;
+	margin: auto;
+}
+
+h2{
+	font-size: 20px;
+	font-family: OpenSans-SemiBold;
+	text-align: center;
+}
+
+.code-box{
+	margin: 30px auto 0px;
+}
+
+.resend-sms h3,
+.resend-sms ion-text{
+	font-size: 16px;
+	font-family: OpenSans-Regular;
+}

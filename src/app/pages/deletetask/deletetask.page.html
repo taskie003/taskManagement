@@ -1,0 +1,23 @@
+<ion-content>
+	<ion-list lines="none" class="ion-margin-bottom">
+		<ion-item>
+			<ion-label class="ion-text-wrap">
+				<h3>Are you sure?</h3>
+				<h4><span>"Forward my resume to HR"</span> will be permanently deleted</h4>
+			</ion-label>
+		</ion-item>
+	</ion-list>
+
+	<ion-list lines="none">
+		<ion-buttons class="ion-justify-content-end ion-padding-horizontal">
+			<ion-button color="dark" (click)="dismissdelete()">
+				Cancel
+			</ion-button>
+			<ion-button color="danger" (click)="deletecurrenttask()">
+				Delete
+			</ion-button>
+		</ion-buttons>
+
+	</ion-list>
+
+</ion-content>

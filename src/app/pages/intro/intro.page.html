@@ -1,0 +1,32 @@
+<ion-content fullscreen class="ion-padding" scroll-y="false">
+	<ion-slides pager="true" [options]="slideOpts" #theslides >
+		<ion-slide>
+			<div class="slide">
+				<img src="assets/images/3.jpg"/>
+				<h2>Welcome</h2>
+				<p><b>Task Managment App</b> duis aute irure dolor in reprehenderit in voluptate velit esse
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</ion-slide>
+		<ion-slide>
+			<img src="assets/images/3.jpg"/>
+			<h2>What is Task Managment?</h2>
+			<p>Duis aute irure dolor in reprehenderit  <b>Task Managment App</b> in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+		</ion-slide>
+
+		<ion-slide>
+			<img src="assets/images/3.jpg"/>
+			<h2>What is TMA flow?</h2>
+			<p><b>Task Managment</b> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+		</ion-slide>
+
+
+	</ion-slides>
+
+	<div class="skip-button">
+		<ion-buttons>
+			<ion-button routerLink="/profileedit">Skip</ion-button>
+			<ion-button (click)="nextSlide(theslides)" style="margin-left: auto;">Next</ion-button>
+		</ion-buttons>
+	</div>
+</ion-content>

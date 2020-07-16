@@ -1,0 +1,15 @@
+ion-label h2{
+	font-family: OpenSans-SemiBold;
+}
+
+
+ion-item.selected:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #fae7c245;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+}

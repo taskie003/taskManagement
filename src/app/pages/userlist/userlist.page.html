@@ -1,0 +1,156 @@
+<ion-header  class="ion-no-border">
+	<ion-toolbar  class="border-bottom">
+		<ion-buttons slot="start">
+			<ion-back-button></ion-back-button>
+		</ion-buttons>
+		<ion-input type="text" placeholder="Search"></ion-input>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content>
+	<ion-list lines="full">
+		<ion-item-group>
+			<ion-item-divider class="group-heading">
+				<ion-label class="ion-text-uppercase">Recents</ion-label>
+			</ion-item-divider>
+			<ion-item (press)="hanglePress()" (click)="handleClick()" [class]="className">
+				<ion-avatar slot="start" class="task-avatar">
+					<img src="assets/icon/profile.jpg">
+				</ion-avatar>
+				<ion-label>
+					<h2>Samyak Kankaria</h2>
+				</ion-label>
+				<ion-checkbox slot="end" *ngIf="hideMe" [checked]="IsChecked"></ion-checkbox>
+			</ion-item>
+			<ion-item>
+				<ion-avatar slot="start" class="task-avatar">
+					<img src="assets/icon/profile.jpg">
+				</ion-avatar>
+				<ion-label>
+					<h2>Animesh Jain</h2>
+				</ion-label>
+				<ion-checkbox slot="end"></ion-checkbox>
+			</ion-item>
+			<ion-item>
+				<ion-avatar slot="start" class="task-avatar">
+					<img src="assets/icon/profile.jpg">
+				</ion-avatar>
+				<ion-label>
+					<h2>Samyak Kankaria</h2>
+				</ion-label>
+				<ion-checkbox slot="end"></ion-checkbox>
+			</ion-item>
+			<ion-item>
+				<ion-avatar slot="start" class="task-avatar">
+					<img src="assets/icon/profile.jpg">
+				</ion-avatar>
+				<ion-label>
+					<h2>MDMS & Associates</h2>
+				</ion-label>
+				<ion-checkbox slot="end"></ion-checkbox>
+			</ion-item>
+			<ion-item>
+				<ion-avatar slot="start" class="task-avatar">
+					<img src="assets/icon/profile.jpg">
+				</ion-avatar>
+				<ion-label>
+					<h2>Sourabh Goyanka</h2>
+				</ion-label>
+				<ion-checkbox slot="end"></ion-checkbox>
+			</ion-item>
+		</ion-item-group>
+
+
+		<ion-item-group>
+			<ion-item-divider class="group-heading">
+				<ion-label class="ion-text-uppercase">Contacts</ion-label>
+			</ion-item-divider>
+			<ion-item>
+				<ion-avatar slot="start" class="task-avatar">
+					<img src="assets/icon/profile.jpg">
+				</ion-avatar>
+				<ion-label>
+					<h2>Animesh Jain</h2>
+				</ion-label>
+				<ion-checkbox slot="end"></ion-checkbox>
+			</ion-item>
+			<ion-item>
+				<ion-avatar slot="start" class="task-avatar">
+					<img src="assets/icon/profile.jpg">
+				</ion-avatar>
+				<ion-label>
+					<h2>Samyak Kankaria</h2>
+				</ion-label>
+				<ion-checkbox slot="end"></ion-checkbox>
+			</ion-item>
+			<ion-item>
+				<ion-avatar slot="start" class="task-avatar">
+					<img src="assets/icon/profile.jpg">
+				</ion-avatar>
+				<ion-label>
+					<h2>MDMS & Associates</h2>
+				</ion-label>
+				<ion-checkbox slot="end"></ion-checkbox>
+			</ion-item>
+			<ion-item>
+				<ion-avatar slot="start" class="task-avatar">
+					<img src="assets/icon/profile.jpg">
+				</ion-avatar>
+				<ion-label>
+					<h2>Sourabh Goyanka</h2>
+				</ion-label>
+				<ion-checkbox slot="end"></ion-checkbox>
+			</ion-item>
+		</ion-item-group>
+
+
+		<ion-item-group>
+			<ion-item-divider class="group-heading">
+				<ion-label class="ion-text-uppercase">Invite</ion-label>
+			</ion-item-divider>
+			<ion-item>
+				<ion-avatar slot="start" class="task-avatar">
+					<img src="assets/icon/profile.jpg">
+				</ion-avatar>
+				<ion-label>
+					<h2>Animesh Jain</h2>
+				</ion-label>
+				<ion-note slot="end">Invite</ion-note>
+			</ion-item>
+			<ion-item>
+				<ion-avatar slot="start" class="task-avatar">
+					<img src="assets/icon/profile.jpg">
+				</ion-avatar>
+				<ion-label>
+					<h2>Samyak Kankaria</h2>
+				</ion-label>
+				<ion-note slot="end">Invite</ion-note>
+			</ion-item>
+			<ion-item>
+				<ion-avatar slot="start" class="task-avatar">
+					<img src="assets/icon/profile.jpg">
+				</ion-avatar>
+				<ion-label>
+					<h2>MDMS & Associates</h2>
+				</ion-label>
+				<ion-note slot="end">Invite</ion-note>
+			</ion-item>
+			<ion-item>
+				<ion-avatar slot="start" class="task-avatar">
+					<img src="assets/icon/profile.jpg">
+				</ion-avatar>
+				<ion-label>
+					<h2>Sourabh Goyanka</h2>
+				</ion-label>
+				<ion-note slot="end">Invite</ion-note>
+			</ion-item>
+		</ion-item-group>
+	</ion-list>
+</ion-content>
+
+<ion-footer>
+	<ion-toolbar class="ion-text-center">
+		<ion-button color="danger" routerLink="/createtask">Cancel</ion-button>
+		<ion-button routerLink="/createtask">Confirm</ion-button>
+	</ion-toolbar>
+</ion-footer>

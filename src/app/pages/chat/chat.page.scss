@@ -1,0 +1,28 @@
+ion-footer:before{
+	background:none;
+}
+ion-footer ion-toolbar ion-item{
+	max-width: 95%;
+	margin: auto;
+	border-radius: 30px;
+}
+ion-footer ion-toolbar ion-item ion-input{
+	    
+}
+.day{
+	display: inherit;
+	margin-top: 18px;
+}
+
+.day ion-badge{
+     padding: 6px 8px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: OpenSans-Regular;
+    background: #e4e3e3;
+    color: #8c8c8c;
+}
+
+

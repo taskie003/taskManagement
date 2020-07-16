@@ -1,0 +1,163 @@
+<ion-header class="ion-no-border">
+	<ion-toolbar class="border-bottom"  mode="ios">
+		<ion-buttons slot="start">
+			<ion-back-button></ion-back-button>
+		</ion-buttons>
+		<ion-title class="custom-title">Forward my resume to HR</ion-title>
+		<ion-buttons slot="end">
+			<ion-button class="has-badge" routerLink="/notification">
+				<ion-icon name="notifications-outline" slot="icon-only"></ion-icon>
+				<ion-badge color="danger">9+</ion-badge>
+			</ion-button>
+		</ion-buttons>
+	</ion-toolbar>
+</ion-header>
+<ion-content>
+	<ion-list class="chat-frame" lines="none" style="background-color: #f5f6f9;">
+		<!--<ion-avatar slot="start" class="ion-align-self-start"><img src="assets/icon/9.jpg"></ion-avatar> -->
+		<div class="day ion-text-center">
+			<ion-badge color="primary">21 May 2020</ion-badge>
+		</div>
+		<ion-item detail="false" class="user-comment">
+			<ion-label>
+				<div class="user-meta" (click)="addcontact()">
+					<h3>+91 9826531254</h3>
+					<p>johndoe@gmail.com</p>
+				</div>
+				<p class="ion-text-wrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>	
+				
+				<div class="ion-text-right time">
+					<ion-note>11:15 AM</ion-note>
+				</div>
+			</ion-label>
+			
+		</ion-item>
+		<ion-item detail="false" class="user-comment repeat">
+			<ion-label>
+				<div class="user-meta" (click)="addcontact()">
+					<h3>+91 9826531254</h3>
+					<p>johndoe@gmail.com</p>
+				</div>
+				<p class="ion-text-wrap">Lorem magna aliqua.</p>	
+				
+				<div class="ion-text-right time">
+					<ion-note>11:15 AM</ion-note>
+				</div>
+			</ion-label>
+			
+		</ion-item>
+		<ion-item detail="false" class="user-comment repeat">
+			<ion-label>
+				<div class="user-meta" (click)="addcontact()">
+					<h3>+91 9826531254</h3>
+					<p>johndoe@gmail.com</p>
+				</div>
+				<p class="ion-text-wrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>	
+				
+				<div class="ion-text-right time">
+					<ion-note>11:15 AM</ion-note>
+				</div>
+			</ion-label>
+			
+		</ion-item>
+		<ion-item detail="false" class="user-comment self">
+			<ion-label>
+				<p class="ion-text-wrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>	
+				<div class="ion-text-right time">
+					<ion-note>12:20 AM</ion-note>
+				</div>
+			</ion-label>
+		</ion-item>
+		<div class="day ion-text-center">
+			<ion-badge color="primary">Yesterday</ion-badge>
+		</div>
+		<ion-item detail="false" class="user-comment">
+			<ion-label>
+				<div class="user-meta" (click)="addcontact()">
+					<h3>+91 9826531254</h3>
+					<p>johndoe@gmail.com</p>
+				</div>
+				<p class="ion-text-wrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>	
+				
+				<div class="ion-text-right time">
+					<ion-note>02:15 PM</ion-note>
+				</div>
+			</ion-label>
+			
+		</ion-item>
+		<div class="day ion-text-center">
+			<ion-badge color="primary">Today</ion-badge>
+		</div>
+		<ion-item detail="false" class="user-comment">
+			<ion-label>
+				<div class="user-meta" (click)="addcontact()">
+					<h3>+91 9826531254</h3>
+					<p>John Doe</p>
+				</div>
+				<p class="ion-text-wrap">Lorem ipsum dolor sit amet.</p>	
+
+				<div class="ion-text-right time">
+					<ion-note>03:15 PM</ion-note>
+				</div>
+			</ion-label>
+
+		</ion-item>
+		<ion-item detail="false" class="user-comment self">
+			<ion-label>
+				<p class="ion-text-wrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>	
+				<div class="ion-text-right time">
+					<ion-note>03:20 PM</ion-note>
+				</div>
+			</ion-label>
+		</ion-item>
+		<ion-item detail="false" class="user-comment repeat self">
+			<ion-label>
+				<p class="ion-text-wrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>	
+				<div class="ion-text-right time">
+					<ion-note>03:20 PM</ion-note>
+				</div>
+			</ion-label>
+		</ion-item>
+		<ion-item detail="false" class="user-comment">
+			<ion-label>
+				<div class="user-meta">
+					<h3>Simon</h3>
+				</div>
+				<p class="ion-text-wrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>	
+
+				<div class="ion-text-right time">
+					<ion-note>04:01</ion-note>
+				</div>
+			</ion-label>
+
+		</ion-item>
+		<ion-item detail="false" class="user-comment self">
+			<ion-label>
+				<p class="ion-text-wrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>	
+				<div class="ion-text-right time">
+					<ion-note>04:20 PM</ion-note>
+				</div>
+			</ion-label>
+		</ion-item>
+	</ion-list>
+</ion-content>
+<ion-footer>
+	<ion-toolbar style="--background: #f5f6f9 !important;"><!-- ECE5DD -->
+		<ion-item lines="none">
+			<ion-input placeholder="Add a Comment"></ion-input>
+			<ion-buttons slot="end">
+				<ion-button style="transform: rotate(45deg);">
+					<ion-icon slot="icon-only" color="medium" name="paper-plane"></ion-icon>
+				</ion-button>
+			</ion-buttons>
+		</ion-item>
+	</ion-toolbar>
+</ion-footer>

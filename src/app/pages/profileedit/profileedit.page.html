@@ -1,0 +1,57 @@
+<ion-header class="ion-no-border">
+	<ion-toolbar class="border-bottom"  mode="ios">
+		<ion-buttons slot="start">
+			<ion-back-button></ion-back-button>
+		</ion-buttons>
+		<ion-title>My Profile</ion-title>
+	</ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding">
+	<div class="profile-img-frame">
+		<div class="profile-img">
+			<img src="assets/icon/placeholder.png">
+		</div>
+		
+		<ion-button>
+			<ion-icon name="camera-outline" slot="icon-only"></ion-icon>
+		</ion-button>
+		
+	</div>
+
+
+	<ion-list lines="full" class="user-details">
+		<ion-item class="ion-no-padding ion-margin-bottom">
+			<ion-label position="stacked">
+				<p>First Name</p>
+			</ion-label>
+			<ion-input placeholder="Enter First Name" type="text"></ion-input>
+		</ion-item>
+		<ion-item class="ion-no-padding ion-margin-bottom">
+			<ion-label position="stacked">
+				<p>Last Name</p>
+			</ion-label>
+			<ion-input placeholder="Enter Last Name" type="text"></ion-input>
+		</ion-item>
+
+		<ion-item class="ion-no-padding ion-margin-bottom">
+			<ion-label position="stacked">
+				<p>Date of Birth</p>
+			</ion-label>
+				<ion-input (click)="openCalendar()" placeholder="DOB" [(ngModel)]=" dob "></ion-input>
+			
+		</ion-item>
+	</ion-list>
+</ion-content>
+
+<ion-footer>
+	<ion-toolbar color="primary">
+		<ion-item lines="none" color="primary">
+			<ion-buttons slot="start" routerLink="/createdtask">
+				<ion-button>SKIP</ion-button>
+			</ion-buttons>
+			<ion-buttons slot="end" routerLink="/createdtask">
+				<ion-button>Save</ion-button>
+			</ion-buttons>
+		</ion-item>
+	</ion-toolbar>
+</ion-footer>

@@ -1,0 +1,24 @@
+ion-item-group ion-item:last-child {
+	--border-width: 0 0 0 0 !important;
+	--inner-border-width: 0;
+}
+
+.ios ion-item-group{
+	margin-bottom: inherit;
+	padding-bottom: inherit;
+}
+
+.ios .my-fab{
+	bottom: 0px;
+}
+
+.flex-box{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+super-tab-button{
+	padding: 0 10px;
+}

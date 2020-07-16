@@ -1,0 +1,15 @@
+.datetime-text,
+ion-datetime,
+ion-select{
+	font-size: 16px !important;
+}
+
+ion-card ion-item-group ion-item:last-child,
+ion-card ion-list ion-item:last-child{
+	--border-width: 0px;
+	--inner-border-width: 0px;
+}
+
+.subtask-list{
+	padding-left: 70px;
+}

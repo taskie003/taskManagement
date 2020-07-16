@@ -1,0 +1,591 @@
+<ion-header class="ion-no-border">
+	<ion-toolbar class="border-bottom"  mode="ios">
+		<ion-buttons slot="start">
+			<ion-menu-button></ion-menu-button>
+		</ion-buttons>
+		<ion-title class="custom-title">All task</ion-title>
+		<ion-buttons slot="end">
+			<ion-button class="has-badge" routerLink="/notification">
+				<ion-icon name="notifications-outline" slot="icon-only"></ion-icon>
+				<ion-badge color="danger">9+</ion-badge>
+			</ion-button>
+		</ion-buttons>
+	</ion-toolbar>
+</ion-header>
+
+<super-tabs>
+	<super-tabs-toolbar slot="top">
+		<super-tab-button>
+			<ion-label class="ion-no-margin" color="light">Due Date</ion-label>  
+		</super-tab-button>
+		<super-tab-button>
+			<ion-label class="ion-no-margin" color="light">Assignee</ion-label>   
+		</super-tab-button>
+		<super-tab-button>
+			<ion-label class="ion-no-margin" color="light">List</ion-label>  
+		</super-tab-button>
+	</super-tabs-toolbar>
+
+
+
+
+	<super-tabs-container>
+		<super-tab>
+			<ion-content>
+				<ion-list class="pb-15">
+					<ion-item-group>
+						<!-- <ion-item-divider class="group-heading">
+							<ion-label class="ion-text-uppercase">Overdue</ion-label>
+						</ion-item-divider> -->
+
+						<div class="task-wrapper">
+							<div class="ss-task">
+								<ion-item lines="none">
+									<span class="ion-item-start checkbox-frame"><ion-checkbox color="primary" slot="start"></ion-checkbox></span>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3>Website design improvement and create two more content pages.</h3>
+										<p class="task-date overdue">Fri, May 15</p>
+
+									</ion-label>
+									<ion-buttons slot="end" >
+										
+										<ion-avatar class="task-avatar">
+											<ion-img src="assets/icon/7.jpg"></ion-img>
+										</ion-avatar>
+									</ion-buttons>
+								</ion-item>
+							</div>
+							<div class="ss-task">
+								<ion-item lines="none">
+									<span class="ion-item-start checkbox-frame"><ion-checkbox color="primary" slot="start"></ion-checkbox></span>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3>Pay telephone bill</h3>
+										<p class="task-date overdue">Thu, May 14</p>
+									</ion-label>
+									<ion-buttons slot="end" >
+										<ion-avatar class="task-avatar">
+											<ion-img src="assets/icon/4.jpg"></ion-img>
+										</ion-avatar>
+									</ion-buttons>
+								</ion-item>
+							</div>
+							<div class="ss-task">
+								<ion-item lines="none">
+									<span class="ion-item-start checkbox-frame"><ion-checkbox color="primary" slot="start"></ion-checkbox></span>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3>Pay water  bill</h3>
+										<p class="task-date overdue">Tue, May 12</p>
+									</ion-label>
+									<ion-buttons slot="end" >
+										<ion-avatar class="task-avatar">
+											<ion-img src="assets/icon/10.jpg"></ion-img>
+										</ion-avatar>
+									</ion-buttons>
+								</ion-item>
+							</div>
+
+
+							<div class="ss-task">
+								<ion-item lines="none">
+									<span class="ion-item-start checkbox-frame"><ion-checkbox color="primary" slot="start"></ion-checkbox></span>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3>Fixed Mr. Yogesh appointment Fixed Mr. Yogesh appointment</h3>
+										<p class="task-date">Today</p>
+									</ion-label>
+									<ion-buttons slot="end" >
+										<ion-avatar class="task-avatar">
+											<ion-img src="assets/icon/4.jpg"></ion-img>
+										</ion-avatar>
+									</ion-buttons>
+								</ion-item>
+							</div>
+							<div class="ss-task">
+								<ion-item lines="none">
+									<span class="ion-item-start checkbox-frame"><ion-checkbox color="primary" slot="start"></ion-checkbox></span>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3>Settle the vendor payment</h3>
+										<p class="task-date">Today</p>
+									</ion-label>
+									<ion-buttons slot="end" >
+										<ion-avatar class="task-avatar">
+											<ion-img src="assets/icon/4.jpg"></ion-img>
+										</ion-avatar>
+									</ion-buttons>
+								</ion-item>
+							</div>
+
+							<div class="ss-task">
+								<ion-item lines="none">
+									<span class="ion-item-start checkbox-frame"><ion-checkbox color="primary" slot="start"></ion-checkbox></span>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3>Pay house rent</h3>
+										<p class="task-date">Tomorrow</p>
+									</ion-label>
+									<ion-buttons slot="end" >
+										<ion-avatar class="task-avatar">
+											<ion-img src="assets/icon/4.jpg"></ion-img>
+										</ion-avatar>
+									</ion-buttons>
+								</ion-item>
+							</div>
+
+
+							
+
+							
+
+							<div class="ss-task">
+								<ion-item lines="none">
+									<span class="ion-item-start checkbox-frame"><ion-checkbox color="primary" slot="start"></ion-checkbox></span>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3>Pay electricity bill</h3>
+										<p class="task-date">Sat, Jun 06</p>
+									</ion-label>
+									<ion-buttons slot="end" >
+										<ion-avatar class="task-avatar">
+											<ion-img src="assets/icon/7.jpg"></ion-img>
+										</ion-avatar>
+									</ion-buttons>
+								</ion-item>
+							</div>
+							<div class="ss-task">
+								<ion-item lines="none">
+									<span class="ion-item-start checkbox-frame"><ion-checkbox color="primary" slot="start"></ion-checkbox></span>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3>Pay telephone bill</h3>
+										<p class="task-date">Mon, Jun 08</p>
+									</ion-label>
+									<ion-buttons slot="end" >
+										<ion-avatar class="task-avatar">
+											<ion-img src="assets/icon/4.jpg"></ion-img>
+										</ion-avatar>
+									</ion-buttons>
+								</ion-item>
+							</div>
+							<div class="ss-task">
+								<ion-item lines="none">
+									<span class="ion-item-start checkbox-frame"><ion-checkbox color="primary" slot="start"></ion-checkbox></span>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3>Pay water bill</h3>
+										<p class="task-date">Wed, Jun 10</p>
+									</ion-label>
+									<ion-buttons slot="end" >
+										<ion-avatar class="task-avatar">
+											<ion-img src="assets/icon/10.jpg"></ion-img>
+										</ion-avatar>
+									</ion-buttons>
+								</ion-item>
+							</div>
+
+							
+
+							<div class="ss-task">
+								<ion-item lines="none">
+									<span class="ion-item-start checkbox-frame"><ion-checkbox color="primary" slot="start"></ion-checkbox></span>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3>Pay electricity bill</h3>
+										<p class="task-date hide">Wed, Jun 10</p>
+									</ion-label>
+									<ion-buttons slot="end" >
+										<ion-avatar class="task-avatar">
+											<ion-img src="assets/icon/7.jpg"></ion-img>
+										</ion-avatar>
+									</ion-buttons>
+								</ion-item>
+							</div>
+							<div class="ss-task">
+								<ion-item lines="none">
+									<span class="ion-item-start checkbox-frame"><ion-checkbox color="primary" slot="start"></ion-checkbox></span>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3>Pay telephone bill</h3>
+										<p class="task-date hide">Wed, Jun 10</p>
+									</ion-label>
+									<ion-buttons slot="end" >
+										<ion-avatar class="task-avatar">
+											<ion-img src="assets/icon/4.jpg"></ion-img>
+										</ion-avatar>
+									</ion-buttons>
+								</ion-item>
+							</div>
+							<div class="ss-task">
+								<ion-item lines="none">
+									<span class="ion-item-start checkbox-frame"><ion-checkbox color="primary" slot="start"></ion-checkbox></span>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3>Pay water bill</h3>
+										<p class="task-date hide">Wed, Jun 10</p>
+									</ion-label>
+									<ion-buttons slot="end" >
+										<ion-avatar class="task-avatar">
+											<ion-img src="assets/icon/10.jpg"></ion-img>
+										</ion-avatar>
+									</ion-buttons>
+								</ion-item>
+							</div>
+
+
+						</div>
+					</ion-item-group>
+
+					<ion-item-group>
+						<ion-item-divider class="group-heading">
+							<ion-label class="ion-text-uppercase">Completed</ion-label>
+							<ion-buttons slot="end">
+								<ion-button>
+									<ion-icon slot="icon-only" name="chevron-down"></ion-icon>
+									<!-- <span>3</span> -->
+								</ion-button>
+							</ion-buttons>
+						</ion-item-divider>
+
+						<div class="task-wrapper">
+							<div class="ss-task completed">
+								<ion-item lines="none">
+									<ion-checkbox color="primary" disabled checked slot="start"></ion-checkbox>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3 class="strike-text">Forward my resume to HR</h3>
+										<p class="task-date">Mon, May 11</p>
+									</ion-label>
+									<ion-buttons slot="end" >
+										<ion-avatar class="task-avatar">
+											<ion-img src="assets/icon/profile.jpg"></ion-img>
+										</ion-avatar>
+									</ion-buttons>
+								</ion-item>
+							</div>
+							<div class="ss-task completed">
+								<ion-item lines="none">
+									<ion-checkbox color="primary" disabled checked slot="start"></ion-checkbox>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3 class="strike-text">Pay electricity bill</h3>
+										<p class="task-date">Fri, May 08</p>
+									</ion-label>
+									<ion-buttons slot="end" >
+										<ion-avatar class="task-avatar">
+											<ion-img src="assets/icon/7.jpg"></ion-img>
+										</ion-avatar>
+									</ion-buttons>
+								</ion-item>
+							</div>
+							<div class="ss-task completed">
+								<ion-item lines="none">
+									<ion-checkbox color="primary" disabled checked  slot="start"></ion-checkbox>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3 class="strike-text">Pay telephone bill</h3>
+										<p class="task-date">Wed, May 06</p>
+									</ion-label>
+									<ion-buttons slot="end" >
+										<ion-avatar class="task-avatar">
+											<ion-img src="assets/icon/4.jpg"></ion-img>
+										</ion-avatar>
+									</ion-buttons>
+								</ion-item>
+							</div>
+							<div class="ss-task completed">
+								<ion-item lines="none">
+									<ion-checkbox color="primary" disabled checked  slot="start"></ion-checkbox>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3 class="strike-text">Pay water  bill</h3>
+										<p class="task-date">Tue, May 05</p>
+									</ion-label>
+									<ion-buttons slot="end" >
+										<ion-avatar class="task-avatar">
+											<ion-img src="assets/icon/10.jpg"></ion-img>
+										</ion-avatar>
+									</ion-buttons>
+								</ion-item>
+							</div>
+
+							
+						</div>
+					</ion-item-group>
+
+				</ion-list>
+			</ion-content>
+		</super-tab>
+
+
+		<super-tab>
+			<ion-content>
+				<ion-list class="pb-60">
+					<ion-item-group>
+						<ion-item-divider class="task-avatar-heading">
+							<ion-item class="ion-no-padding" lines="none">
+								<ion-avatar slot="start" class="task-avatar">
+									<img src="assets/icon/profile.jpg">
+								</ion-avatar>
+								<ion-label>
+									<h3>John Doe</h3>
+								</ion-label>
+							</ion-item>
+							<ion-buttons slot="end">
+								<ion-button>
+									<ion-icon slot="icon-only" name="chevron-down"></ion-icon>
+									<!-- <span>3</span> -->
+								</ion-button>
+							</ion-buttons>
+						</ion-item-divider>
+						<div class="task-wrapper">
+							<div class="ss-task">
+								<ion-item lines="none">
+									<span class="ion-item-start checkbox-frame"><ion-checkbox color="primary" slot="start"></ion-checkbox></span>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3>Pay electricity bill</h3>
+										<p class="task-date overdue">Wed, May 20</p>
+									</ion-label>
+									
+								</ion-item>
+							</div>
+							<div class="ss-task">
+								<ion-item lines="none">
+									<span class="ion-item-start checkbox-frame"><ion-checkbox color="primary" slot="start"></ion-checkbox></span>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3>Pay telephone bill</h3>
+										<p class="task-date">Sat, June 06</p>
+									</ion-label>
+									
+								</ion-item>
+							</div>
+							<div class="ss-task">
+								<ion-item lines="none">
+									<span class="ion-item-start checkbox-frame"><ion-checkbox color="primary" slot="start"></ion-checkbox></span>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3>Pay water bill</h3>
+										<p class="task-date">Wed, June 10</p>
+									</ion-label>
+									
+								</ion-item>
+							</div>
+
+
+						</div>
+					</ion-item-group>
+
+					<ion-item-group>
+						<ion-item-divider class="task-avatar-heading">
+							<ion-item class="ion-no-padding" lines="none">
+								<ion-avatar slot="start" class="task-avatar">
+									<img src="assets/icon/profile.jpg">
+								</ion-avatar>
+								<ion-label>
+									<h3>Simon</h3>
+								</ion-label>
+							</ion-item>
+							<ion-buttons slot="end">
+								<ion-button>
+									<ion-icon slot="icon-only" name="chevron-down"></ion-icon>
+									<!-- <span>3</span> -->
+								</ion-button>
+							</ion-buttons>
+						</ion-item-divider>
+						<div class="task-wrapper">
+							<div class="ss-task">
+								<ion-item lines="none">
+									<span class="ion-item-start checkbox-frame"><ion-checkbox color="primary" slot="start"></ion-checkbox></span>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3>Pay electricity bill</h3>
+										<p class="task-date overdue">Wed, May 20</p>
+									</ion-label>
+									
+								</ion-item>
+							</div>
+							<div class="ss-task">
+								<ion-item lines="none">
+									<span class="ion-item-start checkbox-frame"><ion-checkbox color="primary" slot="start"></ion-checkbox></span>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3>Pay telephone bill</h3>
+										<p class="task-date">Sat, June 06</p>
+									</ion-label>
+									
+								</ion-item>
+							</div>
+							<div class="ss-task">
+								<ion-item lines="none">
+									<span class="ion-item-start checkbox-frame"><ion-checkbox color="primary" slot="start"></ion-checkbox></span>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3>Pay water bill</h3>
+										<p class="task-date">Wed, June 10</p>
+									</ion-label>
+									
+								</ion-item>
+							</div>
+
+
+						</div>
+					</ion-item-group>
+				</ion-list>
+			</ion-content>
+		</super-tab>
+
+		<super-tab>
+			<ion-content>
+				<ion-list class="pb-60">
+
+
+					<ion-item-group>
+						<ion-item-divider class="task-avatar-heading">
+							<ion-item class="ion-no-padding" lines="none">
+								<ion-avatar slot="start" class="task-avatar">
+									<img src="assets/icon/group.jpg">
+								</ion-avatar>
+								<ion-label routerLink="/listtask">
+									<h3>Dream Team</h3>
+								</ion-label>
+								
+							</ion-item>
+							<ion-buttons slot="end">
+									<ion-button routerLink="/groupmanage">
+									<ion-icon slot="icon-only" name="settings-outline"></ion-icon>
+								</ion-button>
+								<ion-button>
+									<ion-icon slot="icon-only" name="chevron-down"></ion-icon>
+									<!-- <span>3</span> -->
+								</ion-button>
+							</ion-buttons>
+						</ion-item-divider>
+						<div class="task-wrapper">
+							<div class="ss-task">
+								<ion-item lines="none">
+									<span class="ion-item-start checkbox-frame"><ion-checkbox color="primary" slot="start"></ion-checkbox></span>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3>Pay electricity bill</h3>
+										<p class="task-date overdue">Wed, May 20</p>
+									</ion-label>
+									<ion-buttons slot="end" >
+										<ion-avatar class="task-avatar">
+											<ion-img src="assets/icon/4.jpg"></ion-img>
+										</ion-avatar>
+									</ion-buttons>
+								</ion-item>
+							</div>
+							<div class="ss-task">
+								<ion-item lines="none">
+									<span class="ion-item-start checkbox-frame"><ion-checkbox color="primary" slot="start"></ion-checkbox></span>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3>Pay telephone bill</h3>
+										<p class="task-date">Sat, June 06</p>
+									</ion-label>
+									<ion-buttons slot="end" >
+										<ion-avatar class="task-avatar">
+											<ion-img src="assets/icon/10.jpg"></ion-img>
+										</ion-avatar>
+									</ion-buttons>
+								</ion-item>
+							</div>
+							<div class="ss-task">
+								<ion-item lines="none">
+									<span class="ion-item-start checkbox-frame"><ion-checkbox color="primary" slot="start"></ion-checkbox></span>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3>Pay water bill</h3>
+										<p class="task-date">Wed, June 10</p>
+									</ion-label>
+									<ion-buttons slot="end" >
+										<ion-avatar class="task-avatar">
+											<ion-img src="assets/icon/7.jpg"></ion-img>
+										</ion-avatar>
+									</ion-buttons>
+								</ion-item>
+							</div>
+
+
+						</div>
+					</ion-item-group>
+
+					<ion-item-group>
+						<ion-item-divider class="task-avatar-heading">
+							<ion-item class="ion-no-padding" lines="none">
+								<ion-avatar slot="start" class="task-avatar">
+									<img src="assets/icon/group.jpg">
+								</ion-avatar>
+								<ion-label routerLink="/listtask">
+									<h3>Meeting Talents</h3>
+								</ion-label>
+							</ion-item>
+							<ion-buttons slot="end">
+								<ion-button>
+									<ion-icon slot="icon-only" name="settings-outline"></ion-icon>
+								</ion-button>
+								<ion-button>
+									<ion-icon slot="icon-only" name="chevron-down"></ion-icon>
+									<!-- <span>3</span> -->
+								</ion-button>
+							</ion-buttons>
+						</ion-item-divider>
+						<div class="task-wrapper">
+							<div class="ss-task">
+								<ion-item lines="none">
+									<span class="ion-item-start checkbox-frame"><ion-checkbox color="primary" slot="start"></ion-checkbox></span>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3>Pay electricity bill</h3>
+										<p class="task-date overdue">Wed, May 20</p>
+									</ion-label>
+									<ion-buttons slot="end" >
+										<ion-avatar class="task-avatar">
+											<ion-img src="assets/icon/7.jpg"></ion-img>
+										</ion-avatar>
+									</ion-buttons>
+								</ion-item>
+							</div>
+							<div class="ss-task">
+								<ion-item lines="none">
+									<span class="ion-item-start checkbox-frame"><ion-checkbox color="primary" slot="start"></ion-checkbox></span>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3>Pay telephone bill</h3>
+										<p class="task-date">Sat, June 06</p>
+									</ion-label>
+									<ion-buttons slot="end" >
+										<ion-avatar class="task-avatar">
+											<ion-img src="assets/icon/9.jpg"></ion-img>
+										</ion-avatar>
+									</ion-buttons>
+								</ion-item>
+							</div>
+							<div class="ss-task">
+								<ion-item lines="none">
+									<span class="ion-item-start checkbox-frame"><ion-checkbox color="primary" slot="start"></ion-checkbox></span>
+									<ion-label class="ion-no-margin" routerLink="/viewtask">
+										<h3>Pay water bill</h3>
+										<p class="task-date">Wed, June 10</p>
+									</ion-label>
+									<ion-buttons slot="end" >
+										<ion-avatar class="task-avatar">
+											<ion-img src="assets/icon/10.jpg"></ion-img>
+										</ion-avatar>
+									</ion-buttons>
+								</ion-item>
+							</div>
+
+
+						</div>
+					</ion-item-group>
+				</ion-list>
+			</ion-content>
+		</super-tab>
+
+
+
+	</super-tabs-container>
+</super-tabs>
+<ion-fab vertical="bottom" horizontal="center" slot="fixed" class="my-fab">
+	<ion-fab-button (click)="addtask()">
+		<!-- <ion-fab-button (click)="createModal()"> -->
+			<ion-icon name="add"></ion-icon>
+		</ion-fab-button>
+	</ion-fab>
+
+	<ion-footer>
+		<ion-toolbar>
+			<ion-row class="">
+				<ion-col size="5" >
+					<ion-item lines="none" (click)="sortActionSheet()">
+						<ion-icon name="filter-outline" slot="start"></ion-icon>
+					</ion-item>
+				</ion-col>
+				<ion-col size="7">
+					<ion-item lines="none" (click)="presentActionSheet()">
+						<ion-icon name="options-outline" slot="end" ></ion-icon>
+					</ion-item>
+				</ion-col>
+
+			</ion-row>
+		</ion-toolbar>
+	</ion-footer>

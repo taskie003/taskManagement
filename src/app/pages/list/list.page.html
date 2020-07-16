@@ -1,0 +1,30 @@
+
+<ion-list lines="full" class="ion-no-padding">
+	<ion-list-header>
+		<h5 class="ion-no-margin">Choose List</h5>
+	</ion-list-header>
+	<div class="list-wrapper">
+		<ion-radio-group value="biff">
+			
+			<ion-item>
+				<ion-label>Biff</ion-label>
+				<ion-radio slot="start" value="biff"></ion-radio>
+			</ion-item>
+
+			<ion-item>
+				<ion-label>Griff</ion-label>
+				<ion-radio slot="start" value="griff"></ion-radio>
+			</ion-item>
+
+			<ion-item>
+				<ion-label>Buford</ion-label>
+				<ion-radio slot="start" value="buford"></ion-radio>
+			</ion-item>
+			
+
+		</ion-radio-group>
+	</div>
+	<div class="ion-text-center" style="margin: 8px auto;">
+		<ion-button (click)="showCreateList()">Create List</ion-button>
+	</div>
+</ion-list>
